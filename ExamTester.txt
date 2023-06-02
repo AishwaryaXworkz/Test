@@ -1,0 +1,169 @@
+1] Explain Java and Javac
+     Java: It is a highly level object oriented Programming Language.
+           Java command  is used run the program.
+
+     JavaC:
+         Javac is compand in java used to Compile the source code to byte code.
+
+2]Explain JDK,JRE,JVM.
+   JVM:Java Virtual Machine
+       provides the runtime environment in which java exceutes the byte code.
+       tasks are:
+          * Loads the program
+          * verifies the program
+          * Executes the program
+
+   JRE:Java Runtime Environment
+       JVM + Set of libraries
+   
+   JDK:Java Development Kit
+       JRE + Development tools
+          development tools are:compiler,debugger etc 
+
+3]List the Limitations of array.
+    we cannot stored the different datatype
+     
+4]Explain Class ,object, and signature of the class.
+    Class: It is a blueprint,template,designing contains states and behaviour.
+        class Speaker{
+            public static void main(String[] args)
+            System.out.println("power on");
+           }
+    Object:object is a instance of a class, used to create a multiple copies of class when object is created.
+        Syntax:classname refname=new constructor();
+               
+  Signature of the class:
+            class ClassName{
+               
+
+            }
+5] Difference between .java file and .class file
+     .java file:
+         * In .java file the readbility is visible clearly
+         * for an source code by using .java file
+          
+     .class file:
+          * In .class file the not readbility
+          * when compile byte code by using .class file.
+ 
+6]Explain the method signature.
+    <access specifiers> return type <method name>(parameters1,parameters2,.......)
+   {
+    //block of codes
+    return;
+  }
+access specifiers:4 methods
+    public :accessed in all the class ,package,sub class.
+    private:accessed in same class.
+    protected:accessed in package and same class
+    Default:accessed in same class,same package,subclass.
+return type:returns the datatypes
+Method name:name of a method
+
+7]what is java?
+    Java is a high level object oriented Programming language.
+   highlevel:human readable
+   object oriented:data and behaviour.
+   Programming Language:set of activities that combined to perform some specific tasks.
+
+8]List of java IDE's
+     java IDE's are :intelji,visual studio,Eclipse,notepad++.
+
+9]what is variable? and its types.
+    variable is a container which is used holds the data.
+       Syntax:
+                 datatypa variablename = data/value;
+   4 types of variables:
+     * Local variable
+     * static variable
+     * instance variable
+     * parameter variable
+          local variable:declared inside the method.
+               eg:class Vegetables{
+                     int price=90;
+                     String color="green";
+                   public static void main(String[] args)
+                       {
+                   System.out.println("the price of vegetables"+price);
+                   System.out.println("the color of vegetables"+color);
+                 }
+             }
+         Static variable:declared outside the method.by using the static keyword.
+             class Vegetables{
+                   static  int price=90;
+                    static String color="green";
+                   public static void main(String[] args)
+                       {
+                   System.out.println("the price of vegetables"+price);
+                   System.out.println("the color of vegetables"+color);
+                 }
+             }
+        instance variable:declared outside the method without using the static keyword.
+        parameter variable:the variable declared inside the parathensis of the method name.
+                   class Vegetables{
+                  public static void add(int a ,int b){
+                         add=a+b;
+                   }
+10]list 15 java Keywords.
+    * int 
+    * float
+    * double
+    * short
+    * byte 
+    * char
+    * boolean  
+    * long 
+    * extend
+    * try 
+    * catch
+    * System
+    * public
+    * String
+    * private 
+
+11] what is class variable?
+12]what is data type and explain its data types
+     Data type is used to indicate the type of datatype that are stored in the memory is known as datatype.
+    types of datatypes:   
+        primitive datatype: int ,short,long,double,char,boolean
+        non primitive datatypes:String ,class etc.
+
+13]what is dot operator.
+      to access the variable and method by using dot operator.
+
+14]list of java features.
+     java features are:
+         simple: easy to understand
+         Robust:very strong .strong memory management
+         object orineted:compartable of data and behaviour
+         multithearded:performs the multiple tasks
+         distributed:facilitates the user to create thedistributed applications
+         secure:no expicit pointers,and sandbox.
+
+15]what is the base class of all the classes?
+      java .lang
+
+16]what is method overloading? 
+      method overloading having a same name but different parameters.
+     eg: class Addition{
+         public static void main(String[] args)
+             { 
+         add(45+45);
+         add(90+70+80);
+         } 
+           public void add(int a,int b)
+           { 
+          System.out.println("adding the first element");
+          System.out.println("adding the second element");
+          int j=a+b;
+          System.out.println(j);
+         }
+    public void add(int x,int y,int z)
+           { 
+          System.out.println("adding the first element");
+          System.out.println("adding the second element");
+          System.out.println("adding the third element");
+          int p=x+y+z;
+          System.out.println(p);
+         }
+                       
